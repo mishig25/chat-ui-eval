@@ -1,0 +1,87 @@
+[
+  {
+    "prompt": "What were the news yesterday?",
+    "answer": "Should be a good summary of world news",
+    "generation": "Sure! Here's an answer to your question in a concise manner:\n\nYesterday, November 7, 2023, Israeli military forces were fighting inside Gaza City, abortion rights took center stage in various elections, WeWork, once the country's most valuable startup, filed for bankruptcy, and more, as seen on the nightly news broadcast."
+  },
+  {
+    "prompt": "Who won last US open?",
+    "answer": "As of Oct 20, 2023, Djokovic and Coco Gauff",
+    "generation": "The winner of the 2022 US Open was Carlos Alcaraz."
+  },
+  {
+    "prompt": "When is the next formula 1 grand prix?",
+    "answer": "As of Oct 20, 2023, Oct 22 Circuit of the Americas, Austin Texas",
+    "generation": "The next formula one grand prix is the Bahrain Grand Prix on March 5th 2023."
+  },
+  {
+    "prompt": "Who is Julien Chaumond?",
+    "answer": "CTO of hugging face",
+    "generation": "Sure! Here's a brief summary of who Julien Chaumond is, according to the provided information:\n\nAs of today, November 8, 2023, Julien Chaumond is a male individual residing in New York City, specifically in the Greater New York area, along the East Coast of the Northeastern region of the United States. He currently holds the position of Co-Founder at Hugging Face and serves as its Chief Technology Officer. His professional background includes founding multiple machine-learning based startups following his education at Ecole Polytechnique and Standford University. He also served as an advisor to France's Minister of Digital affairs, during which time he achieved the notable feat of publishing French laws on Git."
+  },
+  {
+    "prompt": "Where is the hugging face HQ?",
+    "answer": "20 Jay Street, Ste 620, 11201 Brooklyn USA",
+    "generation": "As of November 8, 2023, Hugging Face's headquarters is located in Manhattan, New York City."
+  },
+  {
+    "prompt": "What's the title of Elon Musk's new biography?",
+    "answer": "just 'Elon Musk'. Not to be confused with the previous one titled 'Elon Musk: Tesla, SpaceX, and the Quest for Fantastic Future'",
+    "generation": "Sure! The title of Elon Musk's new biography is \"Elon Musk: A Life\"."
+  },
+  {
+    "prompt": "What's the highest point in Colorado?",
+    "answer": "At 14,440 ft., Mount Elbert",
+    "generation": "The highest point in Colorado is Mount Elbert, with an elevation of 14,433 feet (4,399 meters) above sea level."
+  },
+  {
+    "prompt": "What are good ski resorts in France?",
+    "answer": "Need to mention Chamonix at least",
+    "generation": "Some of the top ski resorts in France include Courchevel and La Clusaz."
+  },
+  {
+    "prompt": "Where is MC Escher museum?",
+    "answer": "The Hague or Den Haag, Netherlands",
+    "generation": "The MC Escher museum is located at the Lange Voorhout in The Hague, Netherlands. It is open from Tuesday to Sunday, 11 am - 5 pm."
+  },
+  {
+    "prompt": "What is diffusers AI?",
+    "answer": "It is a hugging face library for working with diffusion models",
+    "generation": "Sure! Here's a concise answer to your question:\n\nDiffusers AI refers to a type of generative model that uses diffusion models to generate text. It simulates particle diffusion through space to produce coherent and contextually accurate outputs. This innovative technology has the potential to revolutionize content creation, creative arts, and conversational AI, among other areas. As of November 8, 2023, diffusers AI represents a pioneering wave in AI-language models, promising to transform how humans interact with AI and unlock new possibilities for collaboration and creativity."
+  },
+  {
+    "prompt": "What is spiral AI artwork?",
+    "answer": "AI art genre that encodes spiral patterns in images",
+    "generation": "Spiral AI artwork refers to a current trend in artificial intelligence-generated art that features spiral patterns created using algorithms and machine learning models. These intricate designs often showcase vibrant colors and mesmerizing shapes, leading to widespread interest and discussion within both the art and tech communities."
+  },
+  {
+    "prompt": "Who won the last fight between Shevchenko and Grasso?",
+    "answer": "It was a majority draw",
+    "generation": "Unfortunately, I'm not able to answer your question as there isn't enough information provided within the given text regarding who won the last fight between Shevchenko and Grasso."
+  },
+  {
+    "prompt": "Who are the current UFC champions in every division?",
+    "answer": "",
+    "generation": "As of November 8, 2023, the current UFC champions in each division are as follows:\n\n* Heavyweight: Jon Jones\n* Light Heavyweight: Vacant\n* Middleweight: Sean Strickland\n* Welterweight: Leon Edwards\n* Lightweight: Islam Makhachev\n* Featherweight: Alexander Volkanovski\n* Bantamweight: Sean O'Malley\n* Flyweight: Alexandre Pantoja\n* Women's Bantamweight: Amanda Nunes\n* Women's Featherweight: Amanda Nunes\n* Women's Flyweight: Alexa Grasso\n* Women's Strawweight: Zhang Weili"
+  },
+  {
+    "prompt": "What is the print width of the Prestige A4 DTF printer?",
+    "answer": "\"7.87\" or A4 size",
+    "generation": "The maximum printing width of the Prestige A4 DTF printer is 7.5\"."
+  },
+  {
+    "prompt": "Does the DigiRIP RIP Software only run on windows?",
+    "answer": "yes, windows only",
+    "generation": "No, the DigiRIP RIP software is not exclusive to Windows. The software is also compatible with macOS and Linux operating systems."
+  },
+  {
+    "prompt": "What type of printhead does the Epson F2270 DTG printer use?",
+    "answer": "PrecisionCore MicroTFP printhead with Nozzle Verification Technology",
+    "generation": "The Epson F2270 DTG printer uses a PrecisionCore® MicroTFP printhead."
+  },
+  {
+    "prompt": "Which team is currently leading LaLiga?",
+    "answer": "As of Oct 20, 2023, it is Real Madrid",
+    "generation": "As of today's date, November 8, 2023, the team leading LaLiga is Barcelona, with 28 points after 12 matches."
+  }
+]

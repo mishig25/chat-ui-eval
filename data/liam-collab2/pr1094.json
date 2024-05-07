@@ -1,0 +1,87 @@
+[
+  {
+    "prompt": "What were the news yesterday?",
+    "answer": "Should be a good summary of world news",
+    "generation": "As an AI language model, I don't have access to specific news events or information from a particular day. However, I can provide you with a summary of some of the major news headlines and events that occurred yesterday, based on the information available to me.\n\nHere are some of the key news stories from yesterday:\n\n- US President Joe Biden and Russian President Vladimir Putin held a highly anticipated summit in Geneva, Switzerland, to discuss a range of issues, including cybersecurity, arms control, and Ukraine. The meeting was described as \"positive\" and \"productive,\" with both leaders agreeing to return their ambassadors to their respective posts and continue discussions on cybersecurity.\n\n- The G7 summit concluded in Cornwall, England, with leaders committing to provide 1 billion vaccine doses over the next 12 months to help end the COVID-19 pandemic. They also agreed to a minimum global corporate tax rate of at least 15% to prevent multinational companies from avoiding taxes by shifting profits to low-tax jurisdictions.\n\n- The US Centers for Disease Control and Prevention (CDC) announced that fully vaccinated people no longer need to wear masks in most indoor and outdoor settings, except in certain crowded environments such as airplanes, hospitals, and prisons. The new guidance comes as COVID-19 cases and deaths continue to decline in the US.\n\n- The trial of former Minneapolis police officer Derek Chauvin for the murder of George Floyd began in Minneapolis, Minnesota. Chauvin is charged with second-degree unintentional murder, third-degree murder, and second-degree manslaughter in the death of Floyd, who died after Chauvin knelt on his neck for over nine minutes during an arrest in May 2020.\n\n- The European Union unveiled a plan to allow fully vaccinated tourists from countries with low infection rates to visit the bloc this summer, as it seeks to boost its tourism industry and reopen its borders after more than a year of pandemic-related restrictions.\n\nThese are just a few of the major news stories from yesterday. For more detailed information and the latest updates, I recommend checking reliable news sources or visiting news websites."
+  },
+  {
+    "prompt": "Who won last US open?",
+    "answer": "As of May 2, 2024, Djokovic and Coco Gauff",
+    "generation": "I don't know who won the most recent US Open as the sources I found only listed winners up to 2018."
+  },
+  {
+    "prompt": "When is the next formula 1 grand prix?",
+    "answer": "As of May 2, 2024, it will be May 5 Mimai Grand Prix",
+    "generation": "The next Formula 1 Grand Prix is the Emilia-Romagna Grand Prix, which will take place from May 17 to May 19, 2024."
+  },
+  {
+    "prompt": "Who is Julien Chaumond?",
+    "answer": "CTO of hugging face",
+    "generation": "Julien Chaumond is a co-founder and serves as President, Chief Technology Officer, and Board Member at Hugging Face. He is also a prospectiviste, entrepreneur, and consultant in the fields of Web and e-commerce. Chaumond has a background in applied mathematics and computer science from the Ecole Polytechnique and has conducted research on databases at Stanford University. He has also worked with the French government to coordinate public actions to support the development of the web and mobile sectors. In addition, Chaumond is a co-founder of the think-do tank ReOPEN, an association for the reuse of public data and the opening of a digital state platform."
+  },
+  {
+    "prompt": "Where is the hugging face HQ?",
+    "answer": "20 Jay Street, Ste 620, 11201 Brooklyn USA",
+    "generation": "Meta AI's headquarters are in Astor Place, New York City, New York, USA."
+  },
+  {
+    "prompt": "What's the title of Elon Musk's new biography?",
+    "answer": "just 'Elon Musk'. Not to be confused with the previous one titled 'Elon Musk: Tesla, SpaceX, and the Quest for Fantastic Future'",
+    "generation": "The title of Elon Musk's biography is \"Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future\"."
+  },
+  {
+    "prompt": "What's the highest point in Colorado?",
+    "answer": "At 14,440 ft., Mount Elbert",
+    "generation": "The highest point in Colorado is Mount Elbert, with a peak elevation of approximately 14,440 feet."
+  },
+  {
+    "prompt": "What are good ski resorts in France?",
+    "answer": "Need to mention Chamonix at least",
+    "generation": "Some of the best ski resorts in France include Tignes/Val d'Isere, Les 3 Vallees, Avoriaz, La Grave, and La Rosiere."
+  },
+  {
+    "prompt": "Where is MC Escher museum?",
+    "answer": "The Hague or Den Haag, Netherlands",
+    "generation": "The MC Escher museum is located in The Hague, Netherlands."
+  },
+  {
+    "prompt": "What is diffusers AI?",
+    "answer": "It is a hugging face library for working with diffusion models",
+    "generation": "Diffusers AI is an emerging technology in the field of artificial intelligence that utilizes diffusion models to generate creative and contextually accurate content, particularly in text form. Diffusers AI aims to enhance the capabilities of conversational AI by enabling chatbots and virtual assistants to engage in more meaningful, contextually relevant, and empathetic conversations. It also has potential applications in generating creative content such as poetry and stories that resonate with human emotions and imagination. The technology is designed with ethical principles in mind, emphasizing transparency, fairness, and accountability in the AI creative process. As Diffusers AI continues to evolve, it holds the promise of transforming human-machine interactions and unlocking new possibilities in AI-driven communication and content creation."
+  },
+  {
+    "prompt": "What is spiral AI artwork?",
+    "answer": "AI art genre that encodes spiral patterns in images",
+    "generation": "Spiral AI artwork is a type of optical illusion created using AI tools and a specific prompt. It involves blending segments in the form of a spiral to create a unique and often viral piece of art."
+  },
+  {
+    "prompt": "Who won the last fight between Shevchenko and Grasso?",
+    "answer": "It was a majority draw",
+    "generation": "The last fight between Valentina Shevchenko and Alexa Grasso ended in a split draw."
+  },
+  {
+    "prompt": "Who are the current UFC champions in every division?",
+    "answer": "",
+    "generation": "As of May 6, 2024, here is a list of the current UFC champions in each division:\n\n- Heavyweight: Jon Jones\n- Light Heavyweight: Alex Pereira\n- Middleweight: Dricus du Plessis\n- Welterweight: Leon Edwards\n- Lightweight: Islam Makhachev\n- Featherweight: Ilia Topuria\n- Bantamweight: Sean O'Malley\n- Flyweight: Alexandre Pantoja\n- Women's Bantamweight: Raquel Pennington\n- Women's Featherweight: Amanda Nunes \n- Women's Flyweight: Alexa Grasso\n- Women's Strawweight: Zhang Weili\n\nIt's important to note that this list may not be exhaustive, as there could be additional UFC divisions or interim champions that are not included in the sources retrieved. Additionally, the UFC may have held events since May 6, 2024, which could have resulted in new champions being crowned."
+  },
+  {
+    "prompt": "What is the print width of the Prestige A4 DTF printer?",
+    "answer": "\"7.87\" or A4 size",
+    "generation": "The print width of the Prestige A4 DTF printer is 7.87 inches."
+  },
+  {
+    "prompt": "Does the DigiRIP RIP Software only run on windows?",
+    "answer": "yes, windows only",
+    "generation": "Yes, the DigiRIP RIP Software is currently only compatible with Windows."
+  },
+  {
+    "prompt": "What type of printhead does the Epson F2270 DTG printer use?",
+    "answer": "PrecisionCore MicroTFP printhead with Nozzle Verification Technology",
+    "generation": "The Epson F2270 DTG printer uses a PrecisionCore MicroTFP printhead."
+  },
+  {
+    "prompt": "Which team is currently leading LaLiga?",
+    "answer": "As of May 2, 2024, it is Real Madrid",
+    "generation": "As of May 6, 2024, Real Madrid is leading LaLiga."
+  }
+]

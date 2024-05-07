@@ -1,0 +1,87 @@
+[
+  {
+    "prompt": "What were the news yesterday?",
+    "answer": "Should be a good summary of world news",
+    "generation": "Here is a summary of the news from May 5, 2024:\n\n- Pro-Palestinian protests and demonstrations continued on college campuses across the US, with police presence and some arrests made. USC in Los Angeles cleared out a protest encampment, and the University of California, Irvine, also saw police intervention.\n- The Israel-Hamas war continued, with a worsening humanitarian crisis in Gaza and Hamas rockets fired at Israeli forces near the main entry point for aid, leading Israel to close the crossing. Reports also emerged of forced recruitment and human rights abuses by both sides in the conflict.\n- A new book highlights the stories of Americans who have struggled with mental health issues, aiming to reduce the stigma associated with mental illness.\n- A segment on PBS NewsHour Weekend featured an interview with Aye Min Thant, a journalist who was recently released from a Russian prison and returned home.\n- Graduation ceremonies were held at colleges and universities across the US, with some modifications due to security concerns and ongoing protests.\n\nThese were some of the key news stories from May 5, 2024, according to the sources provided."
+  },
+  {
+    "prompt": "Who won last US open?",
+    "answer": "As of May 2, 2024, Djokovic and Coco Gauff",
+    "generation": "Wyndham Clark won the 2023 US Open."
+  },
+  {
+    "prompt": "When is the next formula 1 grand prix?",
+    "answer": "As of May 2, 2024, it will be May 5 Mimai Grand Prix",
+    "generation": "The next Formula 1 Grand Prix is the Lenovo Chinese Grand Prix, which will take place from May 3 to May 5, 2024."
+  },
+  {
+    "prompt": "Who is Julien Chaumond?",
+    "answer": "CTO of hugging face",
+    "generation": "Julien Chaumond is a prospectivist, entrepreneur, and consultant in the fields of web and e-commerce. He has a background in applied mathematics and computer science from the Ecole Polytechnique and Stanford University, where he researched databases. Chaumond has worked with the French Ministry of Economy and the Secretariat of State for the Development of the Digital Economy to coordinate public actions to support the development of the web and mobile sectors. He is also a founding member of ReOPEN, an association advocating for the reuse of public data and the opening of a digital state platform. In addition, Chaumond has authored a book on social commerce in French and currently works as a mobile and web developer."
+  },
+  {
+    "prompt": "Where is the hugging face HQ?",
+    "answer": "20 Jay Street, Ste 620, 11201 Brooklyn USA",
+    "generation": "Meta AI is headquartered in New York City, New York, U.S."
+  },
+  {
+    "prompt": "What's the title of Elon Musk's new biography?",
+    "answer": "just 'Elon Musk'. Not to be confused with the previous one titled 'Elon Musk: Tesla, SpaceX, and the Quest for Fantastic Future'",
+    "generation": "The title of Elon Musk's biography is \"Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future\" written by author Ashlee Vance."
+  },
+  {
+    "prompt": "What's the highest point in Colorado?",
+    "answer": "At 14,440 ft., Mount Elbert",
+    "generation": "The highest point in Colorado is Mount Elbert, with a height of 14,437 or 14,440 feet."
+  },
+  {
+    "prompt": "What are good ski resorts in France?",
+    "answer": "Need to mention Chamonix at least",
+    "generation": "Based on the search results, here is a list of some of the best ski resorts in France:\n- Val Thorens\n- Les Menuires\n- Méribel\n- Courchevel\n- Val d'Isère\n- La Plagne\n- Morzine\n- La Clusaz\n- Les Deux Alpes\n- Alpe d’Huez\n- Avoriaz\n- Chamonix\n- La Rosière\n- Les Arcs\n- Serre Chevalier\n- Tignes\n\nThese resorts offer a range of experiences, from high-altitude modern resorts with direct access to the slopes to quaint, family-friendly ski towns. They are known for their excellent skiing conditions, varied terrain, and picturesque scenery."
+  },
+  {
+    "prompt": "Where is MC Escher museum?",
+    "answer": "The Hague or Den Haag, Netherlands",
+    "generation": "The MC Escher museum is located in The Hague, Netherlands, in the Lange Voorhout Palace."
+  },
+  {
+    "prompt": "What is diffusers AI?",
+    "answer": "It is a hugging face library for working with diffusion models",
+    "generation": "Diffusers AI is a type of generative machine learning model designed to generate new content, particularly in the form of text and images. They are known for producing high-quality, human-like output that is creative, contextually relevant, and ethically considerate."
+  },
+  {
+    "prompt": "What is spiral AI artwork?",
+    "answer": "AI art genre that encodes spiral patterns in images",
+    "generation": "Spiral AI artwork refers to a technique where an AI model is used to create images that incorporate spiral patterns or shapes. The AI model is guided by a reference image of a spiral, which it attempts to incorporate into the final output. This technique allows users to have more control over the AI model's output and has been used to create a variety of artistic images, including those with optical illusions, text, and other images incorporated into the spirals."
+  },
+  {
+    "prompt": "Who won the last fight between Shevchenko and Grasso?",
+    "answer": "It was a majority draw",
+    "generation": "Alexa Grasso retained her title in a rematch against Valentina Shevchenko via split draw."
+  },
+  {
+    "prompt": "Who are the current UFC champions in every division?",
+    "answer": "",
+    "generation": "The answer is Here is a list of the current UFC champions in each division as of May 6, 2024:\n\n- Heavyweight: Jon Jones\n- Light Heavyweight: Alex Pereira\n- Middleweight: Dricus du Plessis\n- Welterweight: Leon Edwards\n- Lightweight: Islam Makhachev\n- Featherweight: Ilia Topuria\n- Bantamweight: Sean O'Malley\n- Flyweight: Alexandre Pantoja\n- Women's Bantamweight: Raquel Pennington\n- Women's Flyweight: Alexa Grasso\n- Women's Strawweight: Zhang Weili"
+  },
+  {
+    "prompt": "What is the print width of the Prestige A4 DTF printer?",
+    "answer": "\"7.87\" or A4 size",
+    "generation": "The print width of the Prestige A4 DTF printer is not explicitly stated in the provided text. However, the printer's overall dimensions are mentioned as \"23\"x10\"x8\"\". Based on these dimensions, it can be assumed that the print width would be less than 23 inches, but the exact width is not specified."
+  },
+  {
+    "prompt": "Does the DigiRIP RIP Software only run on windows?",
+    "answer": "yes, windows only",
+    "generation": "Yes, the DigiRIP RIP Software is compatible with Windows only."
+  },
+  {
+    "prompt": "What type of printhead does the Epson F2270 DTG printer use?",
+    "answer": "PrecisionCore MicroTFP printhead with Nozzle Verification Technology",
+    "generation": "The Epson F2270 DTG printer uses a PrecisionCore MicroTFP printhead."
+  },
+  {
+    "prompt": "Which team is currently leading LaLiga?",
+    "answer": "As of May 2, 2024, it is Real Madrid",
+    "generation": "Real Madrid is currently leading LaLiga."
+  }
+]

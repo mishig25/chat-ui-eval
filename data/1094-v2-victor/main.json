@@ -1,0 +1,157 @@
+[
+  {
+    "prompt": "When is the next apple event?",
+    "answer": "June: WWDC (Worldwide Developers Conference)",
+    "generation": "The next Apple event is on Tuesday, May 7, 2024."
+  },
+  {
+    "prompt": "Who is Victor Mustar?",
+    "answer": "Head of Product design at Hugging Face",
+    "generation": "I'm sorry, I was unable to find any information about Victor Mustar. Is there anything else I can help you with?"
+  },
+  {
+    "prompt": "When is the next release date of the Iphone?",
+    "answer": "September 2024",
+    "generation": "The next iPhone release date is expected to be in September 2024, likely in the first two weeks of the month. This prediction is based on Apple's historical pattern of releasing new iPhone models in the fall, usually in September, in time for the holiday shopping season."
+  },
+  {
+    "prompt": "How to use 3d models in Gradio?",
+    "answer": "gr.Model3D(),",
+    "generation": "To use 3D models in Gradio, you can follow these steps:\n\n1. Install the Gradio Python package if you haven't already.\n2. Import the necessary modules and define your prediction function. In the example provided, the function load_mesh is defined to return the original 3D model mesh.\n3. Create an instance of the gr.Interface class, passing in your prediction function, input component, and output component. In this case, the input and output components are both gr.Model3D(). You can customize the output component by setting the clear_color attribute to set the background color.\n4. Provide a list of example inputs and their corresponding outputs using the examples parameter of the gr.Interface class.\n5. Launch the Gradio interface by calling the launch() method on the demo object.\n\nHere's an example code snippet that demonstrates how to use 3D models in Gradio:\n\n```python\nimport gradio as gr\nimport os\n\ndef load_mesh(mesh_file_name):\n    return mesh_file_name\n\ndemo = gr.Interface(fn=load_mesh,\n                   inputs=gr.Model3D(),\n                   outputs=gr.Model3D(clear_color=[0.0, 0.0, 0.0, 0.0],\n                                     label=\"3D Model\"),\n                   examples=[[os.path.join(os.path.abspath(''), \"files/Bunny.obj\")],\n                            [os.path.join(os.path.abspath(''), \"files/Duck.glb\")],\n                            [os.path.join(os.path.abspath(''), \"files/Fox.gltf\")],\n                            [os.path.join(os.path.abspath(''), \"files/face.obj\")],\n                           ])\n\nif __name__ == \"__main__\":\n    demo.launch()\n```\n\nMake sure you have the necessary 3D model files (Bunny.obj, Duck.glb, Fox.gltf, and face.obj) in the \"files\" directory relative to your Python script.\n\nYou can also customize the prediction function to run inference on your machine learning model and return the predicted 3D model as a mesh file."
+  },
+  {
+    "prompt": "How to do two-ways props binding in svelte?",
+    "answer": "bind:bindValue",
+    "generation": "Two-way binding in Svelte is achieved using the bind: directive, which allows you to bind a component's property to a variable in the parent component. For example, you can use <input bind:value={a}> to bind the value of an <input> element to the variable a in the parent component. This creates a two-way binding, where changes to the input value update the variable a, and changes to a update the input value."
+  },
+  {
+    "prompt": "What are the new features incoming in Svelte 5?",
+    "answer": "runes, (the new signal-powered reactivity API)\n    event handling with less boilerplate\n    better component composition\n    native TypeScript support",
+    "generation": "The new features of Svelte 5 include native TypeScript support, a new $effect.active rune, a Svelte 5 beta, updated versions of Prettier and prettier-plugin-svelte as the defaults for new SvelteKit projects, and support for nodejs20.x via the Vercel adapter. There is also a new @sveltejs/enhanced-img package that makes it easy to serve different sizes of images through pre-processing."
+  },
+  {
+    "prompt": "What famous rap artists have clashed recently?",
+    "answer": "Drake, kendrick ",
+    "generation": "Recent rap feuds involve Drake, Kendrick Lamar, Future, Metro Boomin, J. Cole, A$AP Rocky, Meek Mill, Pusha T, Kanye West, Big Sean, and Joe Budden."
+  },
+  {
+    "prompt": "Which country recently elected a new president and who is it?",
+    "answer": "Bassirou Diomaye Faye, senegal",
+    "generation": "The United States elected a new president, Joe Biden, in November 2020."
+  },
+  {
+    "prompt": "What is the current price of Bitcoin?",
+    "answer": "63 522,80USD",
+    "generation": "The current price of Bitcoin is $62,318.00 USD."
+  },
+  {
+    "prompt": "Has the Federal Reserve announced any changes to interest rates?",
+    "answer": "Federal Reserve issues FOMC statement",
+    "generation": "As of May 3, 2023, the Federal Reserve raised the target range for the federal funds rate to 5.00–5.25%, an increase of 25 basis points. This is the latest in a series of interest rate hikes since March 2022, when the Federal Reserve first started increasing the federal funds rate from the near-zero level it had been maintained at since March 2020 in response to the COVID-19 pandemic."
+  },
+  {
+    "prompt": "What was the most profitable movie in 2024?",
+    "answer": "Dune II (?)",
+    "generation": "As of May 8, 2024, the most profitable movie of 2024 is Dune: Part Two, which grossed over $281 million in the United States."
+  },
+  {
+    "prompt": "Can I set a background color for my kaboom.js game?",
+    "answer": "setBackground(color: Color, alpha?: number)",
+    "generation": "Yes, you can set a background color for your kaboom.js game. To do so, you can use the background property when initializing the kaboom context. For example:\n\n```javascript\nkaboom({\n    background: [51, 151, 255], // RGB code for the background color\n});\n```\n\nThis will set the background color of your game to a light blue. You can replace the RGB values with any color you prefer."
+  },
+  {
+    "prompt": "Is there a Hugging Face application to generate Illusion images?",
+    "answer": "IllusionDiffusion",
+    "generation": "Yes, there is a Hugging Face application called IllusionDiffusion that can generate illusion images."
+  },
+  {
+    "prompt": "Is there a way to use Transformers in Javascript?",
+    "answer": "Transformers.js",
+    "generation": "Yes, there is a JavaScript library called Transformers.js that allows you to use pre-trained models from Hugging Face in a JavaScript environment, such as a browser."
+  },
+  {
+    "prompt": "What is Hugging Face evaluation library?",
+    "answer": "Evaluate",
+    "generation": "The Hugging Face evaluation library is a tool that makes it easier to evaluate and compare machine learning models and report their performance. It includes implementations of popular metrics for a variety of tasks, including NLP and Computer Vision, and provides type checking and metric cards that describe the values, limitations, and ranges of each metric."
+  },
+  {
+    "prompt": "How do I center an element horiontally and vertically using tailwindcss?",
+    "answer": "flex items-center justify-center or grid place-items-center",
+    "generation": "To center an element both horizontally and vertically using Tailwind CSS, you can use the following classes:\n\n```html\n<div class=\"flex justify-center items-center h-screen\">\n    <div>\n        <!-- Your centered content goes here -->\n        <h3>Title</h3>\n        <button>Button</button>\n    </div>\n</div>\n```\n\nHere's a breakdown of the classes used:\n- `flex`: This sets the parent container to use a flexbox layout.\n- `justify-center`: This centers the inner `div` (and its content) horizontally within the parent container.\n- `items-center`: This centers the inner `div` (and its content) vertically within the parent container.\n- `h-screen`: This sets the height of the parent container to the full screen height. You can adjust this as needed for your specific use case.\n\nThe inner `div` wraps your content (in this case, a heading and a button) and is centered within the parent container due to the `justify-center` and `items-center` classes.\n\nMake sure to include the Tailwind CSS stylesheet in your project for these classes to work as expected."
+  },
+  {
+    "prompt": "What are the new features in tailwind 4.0?",
+    "answer": "New engine in Rust, unified toolchain, ...",
+    "generation": "The new features in Tailwind CSS 4.0 include:\n- Composable variants and improved composition, enabling developers to combine different selectors like group-*, peer-*, has-*, and the new not-* variant for more complex styling conditions.\n- Zero-configuration content detection, automatically finding template files within a project and streamlining development.\n- A shift to a CSS-first configuration, utilizing CSS variables for theme configuration, offering a cleaner and more intuitive customization experience.\n- Native cascade layers using real @layer rules to solve specificity problems.\n- Explicitly defined custom properties using @property to define internal custom properties with proper types and constraints.\n- Support for JavaScript configuration files for easier migration from previous versions.\n- Explicit content path configuration, allowing developers to specify template locations when automatic detection isn't sufficient.\n- Plans for enhancing dark mode support, plugin compatibility, custom utilities, prefix support, and more."
+  },
+  {
+    "prompt": "What is midjourney cheapest plan?",
+    "answer": "$10/month",
+    "generation": "Midjourney's cheapest plan is the Basic Plan, which costs $10 per month or $96 per year."
+  },
+  {
+    "prompt": "What does Jubiwee do?",
+    "answer": "HR surveys",
+    "generation": "Jubiwee, now known as Haiilo, is a human analytics tool that measures and improves employee engagement in real time. It captures employees' expectations, identifies areas for improvement, and provides managers with prioritized action plans. Jubiwee offers customized surveys and advanced analysis to help companies monitor employee engagement and prevent disengagement. The platform also provides personalized recommendations for implementing new routines and improving existing practices."
+  },
+  {
+    "prompt": "Is LM Studio available for Linux?",
+    "answer": "Yes",
+    "generation": "Yes, LM Studio is available for Linux."
+  },
+  {
+    "prompt": "Quel est le créateur de contenu avec le plus d'abonnés sur le youtube francais?",
+    "answer": "Squeezie",
+    "generation": "Tibo InShape est le créateur de contenu avec le plus d'abonnés sur YouTube France."
+  },
+  {
+    "prompt": "Quel président important a visité la france ce derniers jours?",
+    "answer": "Xi Jinping",
+    "generation": "Le président chinois Xi Jinping."
+  },
+  {
+    "prompt": "Quel est le prix moyen d'un paquet de cigarette en France?",
+    "answer": "11,50 euros",
+    "generation": "Le prix moyen d'un paquet de cigarettes en France est de 10,80 euros en mai 2024."
+  },
+  {
+    "prompt": "When is the Ping Pong Olympics game tournament?",
+    "answer": "27 July to 10 August",
+    "generation": "The table tennis tournament at the 2024 Paris Olympics will take place from July 27 to August 10."
+  },
+  {
+    "prompt": "When will the Opening Ceremony of the Olympic Games take place?",
+    "answer": "July 26, 2024",
+    "generation": "The opening ceremony of the Olympic Games will take place on July 26, 2024, at 7:30 pm Paris time."
+  },
+  {
+    "prompt": "Is HuggingChat available on iOS as a native app?",
+    "answer": "Yes",
+    "generation": "Yes, HuggingChat is available as a native app on iOS."
+  },
+  {
+    "prompt": "Is HuggingChat available on Android as a native app?",
+    "answer": "No",
+    "generation": "No, as of May 8, 2024, HuggingChat is not available as a native Android app. However, users can access HuggingChat on their Android devices through a web browser or by using the web-based application."
+  },
+  {
+    "prompt": "What is LPCAMM2?",
+    "answer": "Laptop memory",
+    "generation": "LPCAMM2 is a new, modular memory solution for laptops that utilizes LPDDR5X components. It offers a repairable and upgradeable memory standard, providing high-speed performance and improved thermals in a thin and lightweight design."
+  },
+  {
+    "prompt": "What is tesla model 3 price?",
+    "answer": "starts at $38,990",
+    "generation": "The price of the 2024 Tesla Model 3 starts at $38,990 for the single-motor model with rear-wheel drive. The dual-motor, all-wheel-drive Long Range model begins at $45,990."
+  },
+  {
+    "prompt": "What is the goal of the research paper StoryDiffusion: Consistent Self-Attention?",
+    "answer": "Maintain consistency across a series of generated images",
+    "generation": "The goal of the research paper \"StoryDiffusion: Consistent Self-Attention for Long-Range Generative Storytelling\" is to propose a new approach for improving the quality and coherence of long-range generative storytelling. The paper introduces a model called StoryDiffusion, which incorporates consistent self-attention mechanisms to enable the model to generate more coherent and contextually appropriate story continuations.\n\nThe main objective of the research is to address the challenges faced by traditional language models in generating long and coherent stories. The paper proposes a method that incorporates self-attention mechanisms to help the model maintain consistency and coherence over extended periods of text generation.\n\nThe specific goals of the research paper include:\n\n1. Introducing the StoryDiffusion model: The paper proposes a new model architecture that combines diffusion models with consistent self-attention mechanisms. The diffusion model provides a probabilistic framework for generating text, while the consistent self-attention helps capture long-range dependencies in the story context.\n\n2. Improving long-range coherence: The research aims to enhance the model's ability to generate coherent and contextually appropriate story continuations over a long narrative arc. The consistent self-attention mechanism helps the model attend to relevant context and maintain consistency in the generated story.\n\n3. Evaluating story quality: The paper presents various evaluation metrics and human evaluation studies to assess the quality and coherence of the generated stories. The goal is to demonstrate that the StoryDiffusion model outperforms baseline models in terms of coherence, context appropriateness, and overall story quality.\n\n4. Analyzing the model's performance: The research also includes an analysis of the model's performance, including ablation studies to understand the impact of different components of the StoryDiffusion model. The goal is to provide insights into the effectiveness of consistent self-attention and its contribution to improving long-range generative storytelling.\n\nOverall, the research paper \"StoryDiffusion: Consistent Self-Attention for Long-Range Generative Storytelling\" aims to contribute to the field of natural language processing by proposing a novel approach to improving the quality and coherence of long-form story generation. The paper presents a new model, evaluates its performance, and provides insights into the benefits of consistent self-attention for this challenging task."
+  },
+  {
+    "prompt": "List 5 people working at Hugging Face?",
+    "answer": "the co-founders + 2 other",
+    "generation": "Here is a list of 5 people working at Hugging Face, in no particular order:\n\n1. Clément Delangue (CEO)\n2. Julien Chaumond (CTO)\n3. Thomas Wolf (CSO)\n4. AutoTrain (4x Kaggle GrandMaster)\n5. ML (gave a talk on diffusion models)"
+  }
+]

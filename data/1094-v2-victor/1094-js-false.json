@@ -1,0 +1,157 @@
+[
+  {
+    "prompt": "When is the next apple event?",
+    "answer": "June: WWDC (Worldwide Developers Conference)",
+    "generation": "The next Apple event is expected to be held in September 2024, likely on Tuesday, September 3 or September 10. This event will probably focus on the launch of the iPhone 16 and related products."
+  },
+  {
+    "prompt": "Who is Victor Mustar?",
+    "answer": "Head of Product design at Hugging Face",
+    "generation": "I'm sorry, but I could not find any information about Victor Mustar. Is there anything else I can help you with?"
+  },
+  {
+    "prompt": "When is the next release date of the Iphone?",
+    "answer": "September 2024",
+    "generation": "The next release date of the iPhone is expected to be in September 2024."
+  },
+  {
+    "prompt": "How to use 3d models in Gradio?",
+    "answer": "gr.Model3D(),",
+    "generation": "To use 3D models in Gradio, you can follow these steps:\n\n1. Make sure you have the Gradio Python package installed.\n\n2. Define a function that loads your 3D mesh file. For example:\n\n```python\nimport gradio as gr\n\ndef load_mesh(mesh_file_name):\n    return mesh_file_name\n```\n\n3. Create a Gradio interface with the `gr.Interface` class. Pass your function, input component (`gr.Model3D`), and output component (`gr.Model3D`) to the `Interface` class. You can also specify additional parameters for the output component, such as `clear_color` and `label`.\n\n```python\ndemo = gr.Interface(\n    fn=load_mesh,\n    inputs=gr.Model3D(),\n    outputs=gr.Model3D(clear_color=[0.0, 0.0, 0.0, 0.0], label=\"3D Model\")\n)\n```\n\n4. Provide a list of example 3D model files that you want to display in your demo. These files should be in `.obj`, `.glb`, or `.gltf` format.\n\n```python\nexamples = [\n    [os.path.join(os.path.dirname(__file__), \"files/Bunny.obj\")],\n    [os.path.join(os.path.dirname(__file__), \"files/Duck.glb\")],\n    [os.path.join(os.path.dirname(__file__), \"files/Fox.gltf\")],\n    [os.path.join(os.path.dirname(__file__), \"files/face.obj\")]\n]\n```\n\n5. Start the Gradio demo by calling the `launch` method on your interface object.\n\n```python\nif __name__ == \"__main__\":\n    demo.launch()\n```\n\n6. Run your Python script to start the Gradio demo.\n\nHere is the complete code:\n\n```python\nimport gradio as gr\nimport os\n\ndef load_mesh(mesh_file_name):\n    return mesh_file_name\n\ndemo = gr.Interface(\n    fn=load_mesh,\n    inputs=gr.Model3D(),\n    outputs=gr.Model3D(clear_color=[0.0, 0.0, 0.0, 0.0], label=\"3D Model\"),\n    examples=[\n        [os.path.join(os.path.dirname(__file__), \"files/Bunny.obj\")],\n        [os.path.join(os.path.dirname(__file__), \"files/Duck.glb\")],\n        [os.path.join(os.path.dirname(__file__), \"files/Fox.gltf\")],\n        [os.path.join(os.path.dirname(__file__), \"files/face.obj\")]\n    ]\n)\n\nif __name__ == \"__main__\":\n    demo.launch()\n```\n\nMake sure to replace `\"files/Bunny.obj\"`, `\"files/Duck.glb\"`, `\"files/Fox.gltf\"`, and `\"files/face.obj\"` with the actual paths to your 3D model files."
+  },
+  {
+    "prompt": "How to do two-ways props binding in svelte?",
+    "answer": "bind:bindValue",
+    "generation": "In Svelte, two-way binding can be achieved by using the bind directive. For example, to bind the value of an input element to a variable in your component, you can use the following code:\n\n```html\n<input bind:value={myVariable}>\n```\n\nThis will update the myVariable whenever the input value changes, and it will also update the input value whenever myVariable changes.\n\nYou can also use two-way binding with component props. For example, if you have a child component that needs to update a prop based on user input, you can pass the prop using the bind directive:\n\n```html\n<ChildComponent bind:propName={myVariable}>\n```\n\nThis will update the propName prop of the ChildComponent whenever myVariable changes, and it will also update myVariable whenever propName changes.\n\nIt's important to note that two-way binding in Svelte is safe and consistent, meaning that it won't cause unexpected behavior or inconsistencies in your code. Svelte ensures that changes are propagated in a predictable manner, avoiding common issues found in other frameworks.\n\nAdditionally, Svelte provides tools like the $: operator to help manage reactivity and ensure that your code behaves as expected when using two-way binding."
+  },
+  {
+    "prompt": "What are the new features incoming in Svelte 5?",
+    "answer": "runes, (the new signal-powered reactivity API)\n    event handling with less boilerplate\n    better component composition\n    native TypeScript support",
+    "generation": "The new features incoming in Svelte 5 include the introduction of 'runes' for reactivity, a signal-powered API that improves performance and responsiveness, enhancements to event handling to make it more intuitive and easier to use, improvements to component composition making it easier to create reusable and modular components, and native TypeScript support."
+  },
+  {
+    "prompt": "What famous rap artists have clashed recently?",
+    "answer": "Drake, kendrick ",
+    "generation": "Recent rap feuds include Drake and Kendrick Lamar, Ice Cube vs. NWA, Ice Cube vs. Common, 6ixNine vs. everybody, Drake vs. Meek Mill, Drake vs. Pusha T, Drake vs. Kanye West, and Drake vs. Joe Budden."
+  },
+  {
+    "prompt": "Which country recently elected a new president and who is it?",
+    "answer": "Bassirou Diomaye Faye, senegal",
+    "generation": "The United States recently elected Joe Biden as president."
+  },
+  {
+    "prompt": "What is the current price of Bitcoin?",
+    "answer": "63 522,80USD",
+    "generation": "The current price of Bitcoin is $62,480.31."
+  },
+  {
+    "prompt": "Has the Federal Reserve announced any changes to interest rates?",
+    "answer": "Federal Reserve issues FOMC statement",
+    "generation": "The Federal Reserve has announced that it is holding its benchmark interest rate steady at a range of 5.25% to 5.5%. This rate has been unchanged since the central bank's July 2023 meeting."
+  },
+  {
+    "prompt": "What was the most profitable movie in 2024?",
+    "answer": "Dune II (?)",
+    "generation": "Dune: Part Two was the most profitable movie in 2024."
+  },
+  {
+    "prompt": "Can I set a background color for my kaboom.js game?",
+    "answer": "setBackground(color: Color, alpha?: number)",
+    "generation": "Yes, you can set a background color for your kaboom.js game by passing in the background color value as an option when initializing kaboom. Here's an example:\n\n```javascript\nkaboom({\n    width: 320,\n    height: 240,\n    background: [255, 0, 0], // Set background color to red\n    ...otherOptions\n});\n```\n\nIn this example, the background color is set to red by passing in the RGB values `[255, 0, 0]`. You can replace these values with your desired color.\n\nYou can also set the background color using CSS by targeting the canvas element that kaboom creates. Here's an example:\n\n```css\n#kaboom-canvas {\n    background-color: red;\n}\n```\n\nMake sure to replace `#kaboom-canvas` with the appropriate ID or class of the canvas element if you have customized it."
+  },
+  {
+    "prompt": "Is there a Hugging Face application to generate Illusion images?",
+    "answer": "IllusionDiffusion",
+    "generation": "Yes, there are several Hugging Face applications and models that can generate illusion images. One example is the \"IllusionDiffusion\" Space by AP123, which allows users to generate high-quality illusion artwork. Another example is the \"Op Art\" model by KappaNeuro, which creates optical art illusions with geometric patterns and visual effects. There are also other image generators and models available on the Hugging Face platform that can be used to create illusion images."
+  },
+  {
+    "prompt": "Is there a way to use Transformers in Javascript?",
+    "answer": "Transformers.js",
+    "generation": "Yes, there is a JavaScript library called Transformers.js that allows you to use Transformers directly in your browser without needing a server. It is designed to be functionally equivalent to the Python library, so you can use the same pretrained models with a similar API. Transformers.js uses ONNX Runtime to run models in the browser and supports tasks such as Natural Language Processing (NLP), Computer Vision, Audio, and Multimodal processing."
+  },
+  {
+    "prompt": "What is Hugging Face evaluation library?",
+    "answer": "Evaluate",
+    "generation": "The Hugging Face evaluation library is a tool that makes it easy to evaluate and compare machine learning models and datasets. It provides a standard way to add new evaluation modules to the Hugging Face Hub and includes metrics for NLP, Computer Vision, and Reinforcement Learning. The library also supports different types of evaluations, such as measurements, which provide insights on datasets and model predictions, and metrics, which quantify the performance of a model."
+  },
+  {
+    "prompt": "How do I center an element horiontally and vertically using tailwindcss?",
+    "answer": "flex items-center justify-center or grid place-items-center",
+    "generation": "To center an element horizontally and vertically using TailwindCSS, you can apply the flexbox properties justify-center and items-center to the parent container. Here's an example code snippet:\n\n```html\n<div class=\"flex h-screen justify-center items-center\">\n  <div class=\"text-center bg-blue-400\">\n    <!-- Your content here -->\n    <h1 class=\"text-3xl\">HEADING</h1>\n    <p class=\"text-xl\">Sub text</p>\n  </div>\n</div>\n```\n\nIn the above code, the outer div has the class \"flex h-screen justify-center items-center\". The \"flex\" property enables flexbox, \"h-screen\" sets the height of the container to the full screen height, \"justify-center\" centers the content horizontally, and \"items-center\" centers the content vertically.\n\nThe inner div has the class \"text-center bg-blue-400\", which centers the text within the div and applies a blue background color. You can replace the \"h1\" and \"p\" tags with your own content.\n\nBy using this combination of classes, you can easily center an element both horizontally and vertically in TailwindCSS."
+  },
+  {
+    "prompt": "What are the new features in tailwind 4.0?",
+    "answer": "New engine in Rust, unified toolchain, ...",
+    "generation": "The new features in Tailwind 4.0 include native cascade layers, explicit custom properties using @property, enhanced support for color-mix and opacity modifiers, container queries, composable variants (including the new not-* variant), zero-configuration content detection, and improved integration with existing projects. The roadmap for v4.0 also includes plans for ensuring backwards compatibility, enhancing dark mode, and improving plugin and configuration support."
+  },
+  {
+    "prompt": "What is midjourney cheapest plan?",
+    "answer": "$10/month",
+    "generation": "Midjourney's cheapest plan is the Basic Plan, which costs $10 per month or $96 per year."
+  },
+  {
+    "prompt": "What does Jubiwee do?",
+    "answer": "HR surveys",
+    "generation": "Jubiwee is a software company that offers a platform for engaging and activating employee engagement in transformation processes. It provides a customizable solution for organizations to improve team engagement and performance. Jubiwee aims to help companies personalize their employee surveys and gain deeper insights through customizable filters for analyzing questionnaire results."
+  },
+  {
+    "prompt": "Is LM Studio available for Linux?",
+    "answer": "Yes",
+    "generation": "Yes, LM Studio is available for Linux. It is currently in beta and compatible with Ubuntu 22.04 and above."
+  },
+  {
+    "prompt": "Quel est le créateur de contenu avec le plus d'abonnés sur le youtube francais?",
+    "answer": "Squeezie",
+    "generation": "Squeezie est le créateur de contenu avec le plus d'abonnés sur le YouTube français."
+  },
+  {
+    "prompt": "Quel président important a visité la france ce derniers jours?",
+    "answer": "Xi Jinping",
+    "generation": "Xi Jinping"
+  },
+  {
+    "prompt": "Quel est le prix moyen d'un paquet de cigarette en France?",
+    "answer": "11,50 euros",
+    "generation": "Le prix moyen d'un paquet de cigarettes en France est de 12 euros."
+  },
+  {
+    "prompt": "When is the Ping Pong Olympics game tournament?",
+    "answer": "27 July to 10 August",
+    "generation": "The table tennis tournament at the 2024 Summer Olympics is scheduled to take place from July 27 to August 10."
+  },
+  {
+    "prompt": "When will the Opening Ceremony of the Olympic Games take place?",
+    "answer": "July 26, 2024",
+    "generation": "The Opening Ceremony of the Olympic Games Paris 2024 will take place on July 26, 2024."
+  },
+  {
+    "prompt": "Is HuggingChat available on iOS as a native app?",
+    "answer": "Yes",
+    "generation": "Yes, HuggingChat is available as a native app on iOS."
+  },
+  {
+    "prompt": "Is HuggingChat available on Android as a native app?",
+    "answer": "No",
+    "generation": "No, there is no mention of a native Android app for HuggingChat in the search results. However, HuggingChat appears to be a web-based application that can be accessed via a mobile browser or as an iOS app."
+  },
+  {
+    "prompt": "What is LPCAMM2?",
+    "answer": "Laptop memory",
+    "generation": "LPCAMM2 is a JEDEC standard for low-power compression-attached memory modules designed for laptops and compact devices. It utilizes LPDDR5X and a new design architecture to offer faster speeds, power and space savings, and upgradeability compared to traditional soldered memory modules."
+  },
+  {
+    "prompt": "What is tesla model 3 price?",
+    "answer": "starts at $38,990",
+    "generation": "The 2024 Tesla Model 3 starts at $38,990 for the single-motor model with rear-wheel drive. The dual-motor, all-wheel-drive Long Range model begins at $45,990."
+  },
+  {
+    "prompt": "What is the goal of the research paper StoryDiffusion: Consistent Self-Attention?",
+    "answer": "Maintain consistency across a series of generated images",
+    "generation": "The research paper StoryDiffusion: Consistent Self-Attention aims to improve the consistency of content across a series of generated images, particularly those with complex subjects and details, for diffusion-based generative models."
+  },
+  {
+    "prompt": "List 5 people working at Hugging Face?",
+    "answer": "the co-founders + 2 other",
+    "generation": "Here is a list of 5 people who work or have worked at Hugging Face:\n\n1. Clement Delangue (CEO and Co-founder)\n2. Julien Chaumond (CTO and Co-founder)\n3. Thomas Wolf (COO and Co-founder)\n4. Aidan Gomez (General Manager, AI Infrastructure)\n5. Jeremy Howard (Advisor)"
+  }
+]
